@@ -1,0 +1,9 @@
+
+
+target 'MTYNetWorking' do
+  
+  use_frameworks!
+
+  pod 'AFNetworking'
+
+end

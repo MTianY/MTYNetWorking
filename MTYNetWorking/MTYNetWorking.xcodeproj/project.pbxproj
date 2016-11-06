@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26959523E4DE6C7733A01EC2 /* Pods_MTYNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F73FF03EE1129784EB5A09 /* Pods_MTYNetWorking.framework */; };
+		4C2395F51DCF26A1008E82B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2395F41DCF26A1008E82B1 /* AppDelegate.swift */; };
+		4C2395F71DCF26A1008E82B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2395F61DCF26A1008E82B1 /* ViewController.swift */; };
+		4C2395FA1DCF26A1008E82B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2395F81DCF26A1008E82B1 /* Main.storyboard */; };
+		4C2395FC1DCF26A1008E82B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2395FB1DCF26A1008E82B1 /* Assets.xcassets */; };
+		4C2395FF1DCF26A1008E82B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2395FD1DCF26A1008E82B1 /* LaunchScreen.storyboard */; };
+		4C23960A1DCF26A2008E82B1 /* MTYNetWorkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2396091DCF26A2008E82B1 /* MTYNetWorkingTests.swift */; };
+		4C2396151DCF26A2008E82B1 /* MTYNetWorkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2396141DCF26A2008E82B1 /* MTYNetWorkingUITests.swift */; };
+		4C2396241DCF26D7008E82B1 /* MTYNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2396231DCF26D7008E82B1 /* MTYNetWorking.swift */; };
+		4C2396261DCF27FD008E82B1 /* MTYNetWorkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2396251DCF27FD008E82B1 /* MTYNetWorkingManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2396061DCF26A2008E82B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2395E91DCF26A1008E82B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2395F01DCF26A1008E82B1;
+			remoteInfo = MTYNetWorking;
+		};
+		4C2396111DCF26A2008E82B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2395E91DCF26A1008E82B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2395F01DCF26A1008E82B1;
+			remoteInfo = MTYNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F73FF03EE1129784EB5A09 /* Pods_MTYNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MTYNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2395F11DCF26A1008E82B1 /* MTYNetWorking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTYNetWorking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2395F41DCF26A1008E82B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2395F61DCF26A1008E82B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C2395F91DCF26A1008E82B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2395FB1DCF26A1008E82B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2395FE1DCF26A1008E82B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2396001DCF26A1008E82B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2396051DCF26A2008E82B1 /* MTYNetWorkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTYNetWorkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2396091DCF26A2008E82B1 /* MTYNetWorkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTYNetWorkingTests.swift; sourceTree = "<group>"; };
+		4C23960B1DCF26A2008E82B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2396101DCF26A2008E82B1 /* MTYNetWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTYNetWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2396141DCF26A2008E82B1 /* MTYNetWorkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTYNetWorkingUITests.swift; sourceTree = "<group>"; };
+		4C2396161DCF26A2008E82B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2396231DCF26D7008E82B1 /* MTYNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTYNetWorking.swift; sourceTree = "<group>"; };
+		4C2396251DCF27FD008E82B1 /* MTYNetWorkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTYNetWorkingManager.swift; sourceTree = "<group>"; };
+		E5F15ED6A879373AE5F50EFF /* Pods-MTYNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTYNetWorking.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTYNetWorking/Pods-MTYNetWorking.release.xcconfig"; sourceTree = "<group>"; };
+		FB18CAA1783365CAE48CDA08 /* Pods-MTYNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTYNetWorking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTYNetWorking/Pods-MTYNetWorking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2395EE1DCF26A1008E82B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26959523E4DE6C7733A01EC2 /* Pods_MTYNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2396021DCF26A2008E82B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C23960D1DCF26A2008E82B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101650E562F648E6DFB6CD82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F73FF03EE1129784EB5A09 /* Pods_MTYNetWorking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		210BB3DBBB0EB6A141654542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB18CAA1783365CAE48CDA08 /* Pods-MTYNetWorking.debug.xcconfig */,
+				E5F15ED6A879373AE5F50EFF /* Pods-MTYNetWorking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C2395E81DCF26A1008E82B1 = {
+			isa = PBXGroup;
+			children = (
+				4C2395F31DCF26A1008E82B1 /* MTYNetWorking */,
+				4C2396081DCF26A2008E82B1 /* MTYNetWorkingTests */,
+				4C2396131DCF26A2008E82B1 /* MTYNetWorkingUITests */,
+				4C2395F21DCF26A1008E82B1 /* Products */,
+				210BB3DBBB0EB6A141654542 /* Pods */,
+				101650E562F648E6DFB6CD82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2395F21DCF26A1008E82B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2395F11DCF26A1008E82B1 /* MTYNetWorking.app */,
+				4C2396051DCF26A2008E82B1 /* MTYNetWorkingTests.xctest */,
+				4C2396101DCF26A2008E82B1 /* MTYNetWorkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2395F31DCF26A1008E82B1 /* MTYNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				4C2396221DCF26BC008E82B1 /* MTYNetWorking */,
+				4C2395F41DCF26A1008E82B1 /* AppDelegate.swift */,
+				4C2395F61DCF26A1008E82B1 /* ViewController.swift */,
+				4C2395F81DCF26A1008E82B1 /* Main.storyboard */,
+				4C2395FB1DCF26A1008E82B1 /* Assets.xcassets */,
+				4C2395FD1DCF26A1008E82B1 /* LaunchScreen.storyboard */,
+				4C2396001DCF26A1008E82B1 /* Info.plist */,
+			);
+			path = MTYNetWorking;
+			sourceTree = "<group>";
+		};
+		4C2396081DCF26A2008E82B1 /* MTYNetWorkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2396091DCF26A2008E82B1 /* MTYNetWorkingTests.swift */,
+				4C23960B1DCF26A2008E82B1 /* Info.plist */,
+			);
+			path = MTYNetWorkingTests;
+			sourceTree = "<group>";
+		};
+		4C2396131DCF26A2008E82B1 /* MTYNetWorkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2396141DCF26A2008E82B1 /* MTYNetWorkingUITests.swift */,
+				4C2396161DCF26A2008E82B1 /* Info.plist */,
+			);
+			path = MTYNetWorkingUITests;
+			sourceTree = "<group>";
+		};
+		4C2396221DCF26BC008E82B1 /* MTYNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				4C2396231DCF26D7008E82B1 /* MTYNetWorking.swift */,
+				4C2396251DCF27FD008E82B1 /* MTYNetWorkingManager.swift */,
+			);
+			path = MTYNetWorking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2395F01DCF26A1008E82B1 /* MTYNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2396191DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorking" */;
+			buildPhases = (
+				B8FAFA5E6E21FC31EC669B1E /* [CP] Check Pods Manifest.lock */,
+				4C2395ED1DCF26A1008E82B1 /* Sources */,
+				4C2395EE1DCF26A1008E82B1 /* Frameworks */,
+				4C2395EF1DCF26A1008E82B1 /* Resources */,
+				B8F2DB8095BE3382C7336F41 /* [CP] Embed Pods Frameworks */,
+				2D4EED9D8D7A1B22071B6475 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTYNetWorking;
+			productName = MTYNetWorking;
+			productReference = 4C2395F11DCF26A1008E82B1 /* MTYNetWorking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2396041DCF26A2008E82B1 /* MTYNetWorkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C23961C1DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorkingTests" */;
+			buildPhases = (
+				4C2396011DCF26A2008E82B1 /* Sources */,
+				4C2396021DCF26A2008E82B1 /* Frameworks */,
+				4C2396031DCF26A2008E82B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2396071DCF26A2008E82B1 /* PBXTargetDependency */,
+			);
+			name = MTYNetWorkingTests;
+			productName = MTYNetWorkingTests;
+			productReference = 4C2396051DCF26A2008E82B1 /* MTYNetWorkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C23960F1DCF26A2008E82B1 /* MTYNetWorkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C23961F1DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorkingUITests" */;
+			buildPhases = (
+				4C23960C1DCF26A2008E82B1 /* Sources */,
+				4C23960D1DCF26A2008E82B1 /* Frameworks */,
+				4C23960E1DCF26A2008E82B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2396121DCF26A2008E82B1 /* PBXTargetDependency */,
+			);
+			name = MTYNetWorkingUITests;
+			productName = MTYNetWorkingUITests;
+			productReference = 4C2396101DCF26A2008E82B1 /* MTYNetWorkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2395E91DCF26A1008E82B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MTY;
+				TargetAttributes = {
+					4C2395F01DCF26A1008E82B1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JJGBDF7PM8;
+						ProvisioningStyle = Automatic;
+					};
+					4C2396041DCF26A2008E82B1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JJGBDF7PM8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C2395F01DCF26A1008E82B1;
+					};
+					4C23960F1DCF26A2008E82B1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JJGBDF7PM8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C2395F01DCF26A1008E82B1;
+					};
+				};
+			};
+			buildConfigurationList = 4C2395EC1DCF26A1008E82B1 /* Build configuration list for PBXProject "MTYNetWorking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2395E81DCF26A1008E82B1;
+			productRefGroup = 4C2395F21DCF26A1008E82B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2395F01DCF26A1008E82B1 /* MTYNetWorking */,
+				4C2396041DCF26A2008E82B1 /* MTYNetWorkingTests */,
+				4C23960F1DCF26A2008E82B1 /* MTYNetWorkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2395EF1DCF26A1008E82B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2395FF1DCF26A1008E82B1 /* LaunchScreen.storyboard in Resources */,
+				4C2395FC1DCF26A1008E82B1 /* Assets.xcassets in Resources */,
+				4C2395FA1DCF26A1008E82B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2396031DCF26A2008E82B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C23960E1DCF26A2008E82B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4EED9D8D7A1B22071B6475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTYNetWorking/Pods-MTYNetWorking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8F2DB8095BE3382C7336F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTYNetWorking/Pods-MTYNetWorking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FAFA5E6E21FC31EC669B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2395ED1DCF26A1008E82B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2395F71DCF26A1008E82B1 /* ViewController.swift in Sources */,
+				4C2395F51DCF26A1008E82B1 /* AppDelegate.swift in Sources */,
+				4C2396261DCF27FD008E82B1 /* MTYNetWorkingManager.swift in Sources */,
+				4C2396241DCF26D7008E82B1 /* MTYNetWorking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2396011DCF26A2008E82B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C23960A1DCF26A2008E82B1 /* MTYNetWorkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C23960C1DCF26A2008E82B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2396151DCF26A2008E82B1 /* MTYNetWorkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2396071DCF26A2008E82B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2395F01DCF26A1008E82B1 /* MTYNetWorking */;
+			targetProxy = 4C2396061DCF26A2008E82B1 /* PBXContainerItemProxy */;
+		};
+		4C2396121DCF26A2008E82B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2395F01DCF26A1008E82B1 /* MTYNetWorking */;
+			targetProxy = 4C2396111DCF26A2008E82B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C2395F81DCF26A1008E82B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2395F91DCF26A1008E82B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2395FD1DCF26A1008E82B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2395FE1DCF26A1008E82B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2396171DCF26A2008E82B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2396181DCF26A2008E82B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C23961A1DCF26A2008E82B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB18CAA1783365CAE48CDA08 /* Pods-MTYNetWorking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C23961B1DCF26A2008E82B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F15ED6A879373AE5F50EFF /* Pods-MTYNetWorking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C23961D1DCF26A2008E82B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTYNetWorking.app/MTYNetWorking";
+			};
+			name = Debug;
+		};
+		4C23961E1DCF26A2008E82B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTYNetWorking.app/MTYNetWorking";
+			};
+			name = Release;
+		};
+		4C2396201DCF26A2008E82B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MTYNetWorking;
+			};
+			name = Debug;
+		};
+		4C2396211DCF26A2008E82B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JJGBDF7PM8;
+				INFOPLIST_FILE = MTYNetWorkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.MTYNetWorkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MTYNetWorking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2395EC1DCF26A1008E82B1 /* Build configuration list for PBXProject "MTYNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2396171DCF26A2008E82B1 /* Debug */,
+				4C2396181DCF26A2008E82B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2396191DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C23961A1DCF26A2008E82B1 /* Debug */,
+				4C23961B1DCF26A2008E82B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C23961C1DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C23961D1DCF26A2008E82B1 /* Debug */,
+				4C23961E1DCF26A2008E82B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C23961F1DCF26A2008E82B1 /* Build configuration list for PBXNativeTarget "MTYNetWorkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2396201DCF26A2008E82B1 /* Debug */,
+				4C2396211DCF26A2008E82B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2395E91DCF26A1008E82B1 /* Project object */;
+}
